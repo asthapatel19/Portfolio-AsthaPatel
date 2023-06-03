@@ -448,7 +448,7 @@ a{
   }
 
   #project1{
-    background-image: url(./images/projects/Project1.png);
+    background-image: url(./images/projects/Top-Courses.png);
   }
 
   #project2{
@@ -461,6 +461,10 @@ a{
   #project4{
     margin-left:120px;
     background-image: url(./images/projects/Shopping-Cart.png);
+  }
+
+  #project5{
+    background-image: url(./images/projects/eDoctor.png);
   }
 
   @media (max-width:1300px) {
