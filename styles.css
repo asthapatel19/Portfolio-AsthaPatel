@@ -468,6 +468,7 @@ a{
   }
 
   @media (max-width:1300px) {
+
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
@@ -714,3 +715,4 @@ footer{
   display:flex;
   gap:1rem;
 }
+
