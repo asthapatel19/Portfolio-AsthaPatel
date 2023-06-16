@@ -467,64 +467,6 @@ a{
     background-image: url(./images/projects/eDoctor.png);
   }
 
-  @media (max-width:1300px) {
-
-    .page-header {
-      padding-top: 30px;
-      color: var(--bgOrange);
-      text-align: center;
-      font-size: 40px;
-    }
-    .project-container {
-      padding: 5px;
-      margin: 10px;
-      gap: 60px;
-    }
-    .project-card {
-      width: 100%;
-      height: 300px;
-    }
-    .project-card {
-      background-size: cover;
-      background-position: center;
-    }
-    .project-content {
-      scale: 0.5;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      top: 0;
-    }
-    .project-content-left {
-      left: 0;
-    }
-    .project-heading {
-      font-size: 40px;
-      width: 100%;
-    }
-    .project-sub-heading {
-      width: 100%;
-    }
-    #project2 {
-      margin-left: 0;
-    }
-    #project4 {
-      margin-left: 0;
-    }
-    .project-skill-container {
-      width: 100%;
-    }
-    .project-skill {
-      width: 35px;
-    }
-    .project-card:hover .project-number {
-      display: none;
-    }
-    .project-card:hover .project-content {
-      scale: 0.55;
-    }
-  }
-
   .skills-container{
     position:relative;
     display:flex;
@@ -714,6 +656,268 @@ footer{
 .icon-wrapper{
   display:flex;
   gap:1rem;
+}
+
+@media (max-width:1300px) {
+
+  .container {
+  overflow-x: hidden;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  .logo-text {
+    font-size: 18px; /* Decreased font size */
+  }
+  .nav-items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 10px;
+  }
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .menu-items.open {
+    display: flex;
+  }
+  .menu-items a {
+    margin-bottom: 10px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+  .hero-section-left {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 15px;
+  }
+  .hero-section-heading {
+    font-size: 26px; /* Decreased font size */
+  }
+  .hero-section-sub-heading {
+    font-size: 16px; /* Decreased font size */
+  }
+  .hero-section-description {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Adjust the width as desired */
+  }
+  .hero-section-right {
+    display: none;
+  }
+  #btn {
+    margin: 0 auto;
+    padding: 8px 16px; /* Adjust the padding as desired */
+    font-size: 14px; /* Decrease the font size */
+  }
+  .hero-section {
+    margin-bottom: 20px; /* Decrease the margin-bottom value */
+  }
+  .page-header {
+    padding-top: 30px;
+    color: var(--bgOrange);
+    text-align: center;
+    font-size: 40px;
+  }
+  .project-container {
+    padding: 5px;
+    margin: 10px;
+    gap: 60px;
+  }
+  .project-card {
+    width: 100%;
+    height: 300px;
+  }
+  .project-card {
+    background-size: cover;
+    background-position: center;
+  }
+  .project-content {
+    scale: 0.5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .project-content-left {
+    left: 0;
+  }
+  .project-heading {
+    font-size: 40px;
+    width: 100%;
+  }
+  .project-sub-heading {
+    width: 100%;
+  }
+  #project2 {
+    margin-left: 0;
+  }
+  #project4 {
+    margin-left: 0;
+  }
+  .project-skill-container {
+    width: 100%;
+  }
+  .project-skill {
+    width: 35px;
+  }
+  .project-card:hover .project-number {
+    display: none;
+  }
+  .project-card:hover .project-content {
+    scale: 0.55;
+  }
+  .navbar {
+    margin-bottom: 20px; /* Decrease the margin-bottom value */
+  }
+  
+  .faded-text{
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .skill-container-left {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .skill-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-subHeading {
+    font-size: 16px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .contactus-heading {
+    font-size: 20px !important;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .contactus-sub-heading {
+    font-size: 12px !important;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  .formfield,
+  .formfield-textarea,
+  .btn-pink {
+    font-size: 12px !important;
+    text-align: center;
+  }
+  
+  .formfield-container {
+    margin-top: 0px;
+  }
+  
+  .formfield {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .formfield::placeholder {
+    font-size: 12px;
+  }
+  
+  .formfield-textarea {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+  }
+  
+  .formfield-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-pink {
+    width: 150px;
+    margin: 0 auto;
+  }
+  
+  #submit-btn {
+    font-size: 10px;
+  }
+  
+  .submit-icon {
+    font-size: 12px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-wrapper {
+    margin-top: 10px;
+  }
+  .icon-wrapper {
+    margin-top: 10px;
+  }
+  .icon-wrapper a {
+    margin-right: 5px;
+  }
+  .link-wrapper div a {
+    font-size: 14px;
+  }
+  
+  .skills-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 0rem;
+        padding: 0;
+    }
+    .skills-container-left {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .skills-container-right {
+        width: 90%;
+    }
+    .skills-fade-text  {
+        opacity: 0;
+    }
+    .skills-logo {
+        width: 50px;
+    }
+  
+  .skill-fade-text{
+    display: none;
+  }
+  
+  .footer-faded-text{
+    display: none;
+  }
+  
 }
 
 
