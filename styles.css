@@ -674,14 +674,14 @@ footer{
     margin-bottom: 20px;
   }
   .logo-text {
-    font-size: 18px; /* Decreased font size */
+    font-size: 18px; 
   }
   .nav-items {
     display: none;
   }
   .menu-icon {
     display: block;
-    font-size: 24px; /* Adjust font size as needed */
+    font-size: 24px; 
     margin-bottom: 10px;
   }
   .menu-items {
@@ -705,10 +705,10 @@ footer{
     padding: 0 15px;
   }
   .hero-section-heading {
-    font-size: 26px; /* Decreased font size */
+    font-size: 26px; 
   }
   .hero-section-sub-heading {
-    font-size: 16px; /* Decreased font size */
+    font-size: 16px; 
   }
   .hero-section-description {
     font-size: 12px;
@@ -716,18 +716,18 @@ footer{
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%; /* Adjust the width as desired */
+    width: 80%; 
   }
   .hero-section-right {
     display: none;
   }
   #btn {
     margin: 0 auto;
-    padding: 8px 16px; /* Adjust the padding as desired */
-    font-size: 14px; /* Decrease the font size */
+    padding: 8px 16px; 
+    font-size: 14px; 
   }
   .hero-section {
-    margin-bottom: 20px; /* Decrease the margin-bottom value */
+    margin-bottom: 20px; 
   }
   .page-header {
     padding-top: 30px;
@@ -784,31 +784,12 @@ footer{
     scale: 0.55;
   }
   .navbar {
-    margin-bottom: 20px; /* Decrease the margin-bottom value */
+    margin-bottom: 20px; 
   }
-  
   .faded-text{
     display: none;
     margin-top: 0px;
     margin-bottom: 0px;
-  }
-  
-  .skill-container-left {
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .skill-heading {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .skill-subHeading {
-    font-size: 16px;
   }
   .container {
     padding: 20px;
@@ -818,54 +799,44 @@ footer{
     text-align: center;
     margin-bottom: 15px;
   }
-  
   .contactus-sub-heading {
     font-size: 12px !important;
     text-align: center;
     margin-bottom: 5px;
   }
-  
   .formfield,
   .formfield-textarea,
   .btn-pink {
     font-size: 12px !important;
     text-align: center;
   }
-  
   .formfield-container {
     margin-top: 0px;
   }
-  
   .formfield {
     width: 100%;
     padding: 10px;
   }
-  
   .formfield::placeholder {
     font-size: 12px;
   }
-  
   .formfield-textarea {
     width: 100%;
     padding: 10px;
     resize: vertical;
   }
-  
   .formfield-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
   .btn-pink {
     width: 150px;
     margin: 0 auto;
   }
-  
   #submit-btn {
     font-size: 10px;
   }
-  
   .submit-icon {
     font-size: 12px;
   }
@@ -885,39 +856,42 @@ footer{
   .link-wrapper div a {
     font-size: 14px;
   }
-  
+  .skill-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .skill-subHeading {
+    font-size: 16px;
+  }
   .skills-container {
         display: flex;
         flex-direction: column;
-        justify-content: start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-top: 0rem;
         padding: 0;
     }
-    .skills-container-left {
-        width: 90%;
-        margin: 0 auto;
-        
-    }
-    .skills-container-right {
-        width: 90%;
-    }
-    .skills-fade-text  {
+  .skill-container-left {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  } 
+  .skills-fade-text  {
         opacity: 0;
     }
-    .skills-logo {
-        width: 50px;
-    }
-  
   .skill-fade-text{
     display: none;
   }
-  
   .footer-faded-text{
     display: none;
   }
   
 }
+
+
 
 
